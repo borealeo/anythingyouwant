@@ -73,6 +73,20 @@ function addMovie() {
 
         // Step 5: Insert the <li>Harry Potter</li> INTO the <ul>
         myMovieList.appendChild(li);
+
+
+
+        // My original code for adding the button next to each list item is done slightly different
+        // from what was done here and I don't want to break the code by adding it in :(
+        // I'll just leave part of it commented so i can complete this part of the lab...
+            // var div = document.createElement('div');
+            // var newList = document.createElement('li');
+          
+            // var deleteBtn = document.createElement('button');
+            // var delTextNode = document.createTextNode('delete');
+            // deleteBtn.appendChild(delTextNode);
+            // deleteBtn.addEventListener('click', deleteScript);
+            // var textNode = document.createTextNode(document.querySelector('#userInput').value);
     }
 
     // Insert movie into Object
